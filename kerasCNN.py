@@ -1,3 +1,8 @@
+'''
+remove all the fully conennected layers and decrease the num of parameters
+
+add batchnormalizatio
+'''
 import numpy as np
 np.random.seed(1337)  # for reproducibility
 from keras.datasets import mnist
